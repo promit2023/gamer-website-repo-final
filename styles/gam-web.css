@@ -1,0 +1,243 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    flex-shrink: 0;
+    padding: 80px 200px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.pink {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+
+}
+
+.nav-img {
+    width: 80px;
+    height: 40px;
+
+}
+
+nav>div {
+    display: flex;
+    gap: 30px;
+}
+
+nav>ul {
+    display: inline-flex;
+    gap: 20px;
+}
+
+nav li {
+    display: inline-flex;
+    list-style: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header-button {
+    width: 262px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    align-items: center;
+}
+
+.button-text {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* menu related styles */
+
+/* banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background: #FFF;
+    margin-top: 150px;
+
+
+}
+
+.banner-p-1 {
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 700px;
+    flex-shrink: 0;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    padding-left: 200px;
+    padding-top: px;
+
+
+}
+
+.banner-p-2 {
+    padding-right: 200px;
+    padding-top: ;
+}
+
+.banner-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.color-purple {
+
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bnr-buttons {
+    display: inline-flex;
+
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.btn-1 {
+    border: #FFF;
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-2 {
+    border: #FFF;
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* main part 1 styles */
+
+.main-part-1 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 150px;
+    
+    
+}
+
+.main-p-text {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+    /* 166.667% */
+}
+
+.change-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-part-imgs {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+
+}
+
+.img-txt-1 {
+    color: #534C64;
+    font-size: 20px;
+    width: 342px;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+}
+
+.img-txt-2 {
+    color: #534C64;
+    font-size: 20px;
+    width: 342px;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+}
+
+.img-txt-3 {
+    color: #534C64;
+    font-size: 20px;
+    width: 244px;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+}
+
+.img-txt-4 {
+    color: #534C64;
+    font-size: 20px;
+    width: 342px;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+}
+
+/* main part 2 styles */
+.main-part-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+
+.mp2-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+/* .mixd-clr {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+} */
