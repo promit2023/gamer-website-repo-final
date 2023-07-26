@@ -118,10 +118,9 @@ nav li {
     font-weight: 600;
 }
 .bt-1{
-    margin-bottom: 0px;
     color: #0B0223;
     font-size: 48px;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 .color-purple {
@@ -204,6 +203,7 @@ nav li {
     display: flex;
     justify-content: space-evenly;
     align-content: space-evenly;
+    margin-right: 50px;
 
 }
 
@@ -291,22 +291,29 @@ nav li {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     height: 427px;
     flex-shrink: 0;
-    display: flex;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
-.buttons {
-    border: #FFF;
+.inner_section{
     display: flex;
+    justify-content: center;
+}
+/* .buttons {
+    border: white;
     border-radius: 2px;
 }
 
 .buttons:hover {
-    border: #FF42A5;
-}
+    background-color: pink;
+    color: red;
+} */
 
 .AG {
-    border: #FFF;
     border-radius: 50px;
+    border: white;
     background: #FFF;
     width: 243px;
     height: 80px;
@@ -314,10 +321,12 @@ nav li {
 }
 
 .AG:hover {
-    border: #FF42A5;
+    border-radius: 50px;
+
+    border: #FF42A5 solid;
     color: #FF42A5;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 200;
 
 }
 
@@ -365,14 +374,14 @@ footer div li {
     font-weight: 600;
 }
 
-.footer-icon li {
-    list-style: none;
+
+.footer-icons a {
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+
 }
 
-.footer-icon {
-    display: flex;
-    align-content: space-around;
-}
 
 .txt-style {
     color: rgba(255, 255, 255, 0.60);
