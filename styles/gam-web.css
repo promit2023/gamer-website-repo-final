@@ -13,7 +13,6 @@ nav {
     padding: 80px 200px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-
 }
 
 .pink {
@@ -75,14 +74,6 @@ nav li {
     font-weight: 500;
 }
 
-/* .button-text {
-    color: #3C354F;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 500;
-} */
-
-/* menu related styles */
 
 /* banner */
 .banner {
@@ -301,15 +292,7 @@ nav li {
     display: flex;
     justify-content: center;
 }
-/* .buttons {
-    border: white;
-    border-radius: 2px;
-}
 
-.buttons:hover {
-    background-color: pink;
-    color: red;
-} */
 
 .AG {
     border-radius: 50px;
@@ -395,3 +378,65 @@ footer div li {
     list-style: none;
     gap: 40px;
 }
+
+
+
+/* responsible medis queries */
+@media screen and (max-width: 600px) {
+ 
+    nav{
+     
+     flex-direction: column;
+     height: auto;
+     width: auto;
+     /* padding: 20px; */
+     align-items: center;
+    } 
+    nav>ul{
+     flex-direction: column;
+     /* gap: 15px; */
+    }
+    nav>div{
+        flex-direction: column;
+        /* gap: 15px; */
+    }
+    .nav-img{
+        width: 60px;
+        height: 30px;
+    }
+    .banner {
+        flex-direction: column-reverse;
+        justify-content: center;
+        background: #FFF;
+        /* margin-top: 150px; */
+    }
+    .main-part-imgs {
+        flex-direction: column;
+        justify-content: center;
+        /* align-content: center; */
+        /* margin-right: 50px; */
+    
+    }.main-part-2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 150px; */
+
+    }
+    .mp2-title {
+        text-align: center;
+        color: #0B0223;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+    .mp2-txt-part {
+        padding-top: 150px;
+    }
+    .mp2-img-part {
+       
+        width: 100%;
+
+    }
+   
+ }
